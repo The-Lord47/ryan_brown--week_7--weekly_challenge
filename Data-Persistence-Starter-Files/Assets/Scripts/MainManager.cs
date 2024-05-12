@@ -38,7 +38,7 @@ public class MainManager : MonoBehaviour
             }
         }
 
-        highscoreText.text = "Best Score: " + PlayerStats.Instance.highScore + " Name: " + PlayerStats.Instance.highScorePlayerName;
+        highscoreText.text = "HIGHSCORE = " + PlayerStats.Instance.highScorePlayerName + ": " + PlayerStats.Instance.highScore ;
     }
 
     private void Update()
